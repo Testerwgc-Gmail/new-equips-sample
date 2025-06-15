@@ -3799,3 +3799,22 @@ section,
 .my-float{
 	margin-top:16px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and text */
+}
+
+.logo-icon {
+  height: 24px;           /* scale as needed */
+  width: auto;
+  display: block;
+}
+
+.sitename {
+  margin: 0;
+  font-size: 20px;         /* adjust based on your design */
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
